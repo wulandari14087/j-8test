@@ -1,0 +1,85 @@
+.ekstra_1 {
+	width: 100%;
+	height: 400px;
+	background-color: #87ceeb;
+}
+
+.j8 {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.gambar {
+	text-align: center;
+	width: 20%;
+	float: left;
+}
+
+.gambar1 {
+	text-align: center;
+	width: 20%;
+	float: left;
+}
+
+.gambar2 {
+	text-align: center;
+	width: 20%;
+	float: left;
+}
+
+.gambar img {
+	width: 80px;
+	height: 80px;
+}
+
+.gambar1 img {
+	width: 120px;
+	height: 120px;
+}
+
+.gambar2 img {
+	width: 100px;
+	height: 100px;
+}
+
+.gambar p {
+}
+
+.img-circle {
+	border-radius: 99%;
+	border: 0px;
+	box-shadow: 0px 0px 0px 2px white;/*rgb(204,204,200);*/
+	padding: 0px;
+}
+
+.profil {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:20px;
+}
+ 
+.profil:hover {
+    background-color: #00bfff;
+    }
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #00bfff;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
